@@ -1,0 +1,21 @@
+.swiper-margin {
+  margin-bottom: 20rpx;
+}
+
+.swiper-item {
+    display: flex;
+    height: 296rpx;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 15rpx;
+    margin: 20rpx auto;
+    background-size: contain;
+}
+
+.img-item {
+  background-size: 100% 100%;
+  width:680rpx;
+  height: 296rpx;
+  border-radius: 15rpx;
+  background-size: contain;
+}

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/science/science",
+    "pages/store/store"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "绿益",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#707070",
+    "backgroundColor": "#ffffff",
+    "color": "#c7c7c7",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "selectedIconPath": "/images/tab/room@highlight.png",
+        "iconPath": "/images/tab/room.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/science/science",
+        "selectedIconPath": "/images/tab/science@highlight.png",
+        "iconPath": "/images/tab/science.png",
+        "text": "科普"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "selectedIconPath": "/images/tab/store@highlight.png",
+        "iconPath": "/images/tab/store.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "/images/tab/my@highlight.png",
+        "iconPath": "/images/tab/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

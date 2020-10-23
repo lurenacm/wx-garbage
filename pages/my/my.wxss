@@ -1,0 +1,148 @@
+.container {
+  width: 90%;
+  height: 400rpx;
+  margin:10rpx auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0712c;
+  border-radius: 20rpx;
+}
+
+.item-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rpx;
+}
+
+.avatar{
+  border-radius: 50%;
+  border: solid 1px;
+  height: 130rpx;
+  width: 130rpx;
+  background-color: #c7c7c7;
+  margin-bottom: 10rpx;
+}
+
+.avatar-img {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+
+.nick-name {
+  color: #fff;
+  font-size: 17px;
+}
+
+.item-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 80rpx;
+}
+
+.nums {
+  color: #fff;
+  font-size: 30px;
+}
+
+.text {
+  color: #fbdcca;
+  padding: 5rpx 0;
+  font-size: 16px;
+}
+
+.info-container {
+  width: 90%;
+  height: 250rpx;
+  margin:10rpx auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20rpx;
+  box-shadow: 1px 4px 2px 3px  #fcfcfc;
+  border: 1px solid #fcfcfc;
+  padding-bottom: 50rpx;
+}
+
+.info-top {
+  width: 100%;
+  padding: 10rpx;
+}
+
+.info-item{
+  margin: 10rpx 40rpx;
+}
+
+.info-buy {
+  font-size: 19px;
+  float: left;
+  font-weight: bold;
+}
+
+.info-more {
+  float: right;
+  font-size: 16px;
+  color:#a8a4a1;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:40rpx  45rpx;
+  color: #484848;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.order-img {
+  width: 80rpx;
+  height: 80rpx;
+  padding: 15rpx;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 50rpx 0rpx;
+  background-color: #fff;
+  box-shadow: 1px 4px 2px 3px  #fcfcfc;
+  border: 1px solid #fcfcfc;
+}
+
+.img-item {
+  height: 180rpx;
+  width: 650rpx;
+  border-radius: 20rpx;
+}
+
+.more-serve {
+  width: 91%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 20rpx;
+  box-shadow: 1px 4px 2px 5px  #fcfcfc;
+  border: 1px solid #fcfcfc;
+  padding:10rpx;
+}

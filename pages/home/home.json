@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-swiper": "../../components/swiper",
+    "v-classify": "../../components/classify",
+    "v-information": "../../components/information"
+  }
+}

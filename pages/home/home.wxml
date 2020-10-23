@@ -1,0 +1,19 @@
+<view class="container">
+    <view class="search-container">
+        <icon type="search"></icon>
+        <text class="desc">
+            搜索垃圾查看对应分类
+        </text>
+    </view>
+    <view>
+        <v-swiper />
+        <v-classify />
+        <view class="crude-line"></view>
+        <view class="info-item">
+            <view class="line"></view>
+            <text class="text">资讯</text>
+            <text class="more-text">更多 ></text>
+        </view>
+        <v-information/>
+    </view>
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "v-image-text": "/components/image-text/index"
+  }
+}
