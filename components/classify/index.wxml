@@ -3,13 +3,13 @@
     <view class="img-item micro">
         <image class="img" src="../../images/microphone.png"></image>
     </view>
-    <text class="text">智能识别</text>
+    <text class="text">语音识别</text>
   </view>
   <view class="item item-scan">
     <view class="img-item scanning">
         <image class="img" src="../../images/scanning.png"></image>
     </view>
-    <text class="text">语音识别</text>
+    <text class="text">智能识别</text>
   </view>
 </view>
 

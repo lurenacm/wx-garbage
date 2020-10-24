@@ -1,2 +1,21 @@
-<!--pages/science/science.wxml-->
-<text>pages/science/science.wxml</text>
+<view class="container">
+  <view class="top">
+    <text>垃圾分类</text>
+  </view>
+  <van-tabs swipeable class="tabs-text">
+    <van-tab title="可回收物">
+      <v-garbage-describe/>
+    </van-tab>
+    <van-tab title="厨余垃圾">
+      <v-garbage-describe/>
+    </van-tab>
+    <van-tab title="有害垃圾">
+      <v-garbage-describe/>
+    </van-tab>
+    <van-tab title="其他垃圾">
+      <v-garbage-describe/>
+    </van-tab>
+  </van-tabs>
+</view>
+
+

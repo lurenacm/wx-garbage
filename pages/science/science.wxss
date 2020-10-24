@@ -1,1 +1,16 @@
-/* pages/science/science.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f8fa;
+}
+
+.top{
+  color: #222222;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20rpx;
+}
+
+.tabs-text{
+  font-weight: 800;
+}

@@ -1,0 +1,20 @@
+<view class="container">
+  <image class="img" src="/images/store/store@cat.jpg"></image>
+  <text class="text-font">凤凰 智能便携 平衡车</text>
+  <text class="text-nums">3440 积分</text>
+</view>
+<view class="container">
+  <image class="img" src="/images/store/store@headset.jpg"></image>
+  <text class="text-font">AFTERSHOKZ 韶音</text>
+  <text class="text-nums">4440 积分</text>
+</view>
+<view class="container">
+  <image class="img" src="/images/store/store@headset2.png"></image>
+  <text class="text-font">AFTERSHOKZ 韶音</text>
+  <text class="text-nums">4440 积分</text>
+</view>
+<view class="container">
+  <image class="img" src="/images/store/store@headset2.jpg"></image>
+  <text class="text-font">AFTERSHOKZ 韶音</text>
+  <text class="text-nums">4440 积分</text>
+</view>

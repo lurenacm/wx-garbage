@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "v-garbage-describe": "/components/garbage-describe/index"
+  }
 }

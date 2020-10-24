@@ -1,2 +1,24 @@
-<!--pages/store/store.wxml-->
-<text>pages/store/store.wxml</text>
+<view class="container">
+  <view class="top">
+    <text>公益商城</text>
+  </view>
+  <view class="integal-container">
+    <view class="integal">
+      <text>我的积分</text>
+    </view>
+    <view class="recording">
+      <text class="bold">285.00</text>
+      <text>兑现记录 ></text>
+    </view>
+  </view>
+  <van-tabs animated>
+    <van-tab title="特别推荐">
+      <view class="store-block">
+        <v-store-block/>
+        <v-store-block/>
+      </view>
+    </van-tab>
+    <van-tab title="生活用品">生活用品</van-tab>
+    <van-tab title="其他商品">其他商品</van-tab>
+  </van-tabs>
+</view>
