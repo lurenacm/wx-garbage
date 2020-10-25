@@ -13,7 +13,6 @@
       <v-garbage-describe/>
     </van-tab>
     <van-tab title="其他垃圾">
-      <v-garbage-describe/>
     </van-tab>
   </van-tabs>
 </view>

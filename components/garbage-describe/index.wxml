@@ -1,7 +1,7 @@
 <view class="container">
   <view class="top-item">
     <view class="img-wrapper">
-    <image class="img" src="/images/science/garbage@apply.png"></image>
+    <image class="img-item" src="/images/science/garbage@apply.png"></image>
     </view>
     <view class="text-wrapper">
       <text class="text-recyclabl">可回收垃圾</text>
@@ -23,6 +23,50 @@
       <view class="line"></view>
       <text>以下类型仅供参考</text>
       <view class="line"></view>
+    </view>
+    <view class="block">
+      <view class="display-garbage">
+        <view class="garbage-item">
+          <image class="garbage-img" src="/images/science/garbage@plastic.png"></image>
+        </view>
+        <text>塑料类</text>
+      </view>
+      <view class="display-garbage">
+        <view class="garbage-item">
+          <image class="garbage-img" src="/images/science/garbage@packing.png"></image>
+        </view>
+        <text>包装物</text>
+      </view>
+      <view class="display-garbage">
+        <view class="garbage-item">
+          <image class="garbage-img" src="/images/science/garbage@textile.png"></image>
+        </view>
+        <text>纺织类</text>
+      </view>
+      <view class="display-garbage">
+        <view class="garbage-item">
+          <image class="garbage-img" src="/images/science/garbage@glass.png"></image>
+        </view>
+        <text>玻璃类</text>
+      </view>
+      <view class="display-garbage">
+        <view class="garbage-item">
+          <image class="garbage-img" src="/images/science/garbage@paper.png"></image>
+        </view>
+        <text>废纸类</text>
+      </view>
+      <view class="display-garbage">
+        <view class="garbage-item">
+          <image class="garbage-img" src="/images/science/garbage@metal.png"></image>
+        </view>
+        <text>废金属</text>
+      </view>
+      <view class="display-garbage">
+        <view class="garbage-item">
+          <image class="garbage-img" src="/images/science/garbage@shore.png"></image>
+        </view>
+        <text>鞋类</text>
+      </view>        
     </view>
   </view>
 </view>

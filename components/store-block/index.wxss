@@ -27,3 +27,9 @@
   color: red;
   font-weight: 600;
 }
+
+.block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

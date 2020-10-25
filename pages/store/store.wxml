@@ -15,7 +15,6 @@
     <van-tab title="特别推荐">
       <view class="store-block">
         <v-store-block/>
-        <v-store-block/>
       </view>
     </van-tab>
     <van-tab title="生活用品">生活用品</van-tab>

@@ -9,6 +9,11 @@
   border-radius: 20rpx;
 }
 
+/* .top{
+  border-radius: 20rpx;
+background-color: #f0712c;
+} */
+
 .item-top {
   display: flex;
   flex-direction: column;
