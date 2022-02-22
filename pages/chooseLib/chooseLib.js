@@ -1,7 +1,4 @@
-// pages/home/home.js
-const appInstance = getApp()
-const db = wx.cloud.database()
-// const db = appInstance.globalData.db
+// pages/chooseLib/chooseLib.js
 Page({
 
   /**
@@ -15,17 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // const db = wx.cloud.database()
-    db.collection('garbageList').where({
-      "goods":'可回收垃圾'
-    }).get({
-      success(){
-        console.log('this', this)
-      }
-    })
-    // .then(res => {
-    //   console.log(res)
-    // })
+
   },
 
   /**
