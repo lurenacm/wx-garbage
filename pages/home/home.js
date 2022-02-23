@@ -20,7 +20,7 @@ Page({
       "goods":'可回收垃圾'
     }).get({
       success(){
-        console.log('this', this)
+        // console.log('this', this)
       }
     })
     // .then(res => {

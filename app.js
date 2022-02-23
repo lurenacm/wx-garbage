@@ -3,7 +3,7 @@ App({
   onLaunch: function () {
     console.log('first')
     wx.cloud.init({
-      env:'test' // 云函数环境id
+      env:'test-ov0b5' // 云函数环境id
     })
     
     // 展示本地存储能力
