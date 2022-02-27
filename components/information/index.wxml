@@ -2,61 +2,13 @@
   <view class="container">
     <view class="info-item">
       <text class="text">
-        干蘑菇是什么垃圾？记者走访了街道，一半选择了干垃圾，另一半选择了湿垃圾。
+        {{title}}
       </text>
       <view class="desc-item">
-        <view class="classify">
-          <text class="desc">文章分类</text>
-        </view>
-        <text class="desc-text">394评论</text>
-        <text class="desc-text">2020/10/20</text>
+        <text class="desc-text">{{browse}}浏览</text>
+        <text class="desc-text">{{date}}</text>
       </view>
     </view>
-    <image class="img" src="../../images/mushroom.jpg"></image>
-  </view>
-  <view class="container">
-    <view class="info-item">
-      <text class="text">
-        生活垃圾分类标志标准更新人工智能助推完善产业链。
-      </text>
-      <view class="desc-item">
-        <view class="classify">
-          <text class="desc">文章分类</text>
-        </view>
-        <text class="desc-text">394评论</text>
-        <text class="desc-text">2020/10/20</text>
-      </view>
-    </view>
-    <image class="img" src="../../images/smart.jpg"></image>
-  </view>
-  <view class="container">
-    <view class="info-item">
-      <text class="text">
-        生活垃圾分类知识微课堂（第一课）：什么是厨余垃圾？详细清单送给你！
-      </text>
-      <view class="desc-item">
-        <view class="classify">
-          <text class="desc">文章分类</text>
-        </view>
-        <text class="desc-text">394评论</text>
-        <text class="desc-text">2020/10/20</text>
-      </view>
-    </view>
-    <image class="img" src="../../images/chuyu.png"></image>
-  </view>
-  <view class="container">
-    <view class="info-item">
-      <text class="text">
-        广州生活垃圾日均产生量逾3万吨回收利用率35.6%!
-      </text>
-      <view class="desc-item">
-        <view class="classify">
-          <text class="desc">文章分类</text>
-        </view>
-        <text class="desc-text">394评论</text>
-        <text class="desc-text">2020/10/20</text>
-      </view>
-    </view>
-    <image class="img" src="../../images/life.jpg"></image>
+    <image class="img" src="{{img}}"></image>
   </view>
 </view>

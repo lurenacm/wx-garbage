@@ -8,24 +8,44 @@ Page({
    * 页面的初始数据
    */
   data: {
+    consult:[]
+  },
 
+
+  getContent(event){
+    let content = event.currentTarget.dataset.content
+    // console.log('dataset', event.currentTarget.dataset.content)
+
+    wx.navigateTo({
+      url:`./contentPage/contentPage?content=${content[0]}&imgUrl=${content[1]}`,
+      fail(res){
+        console.log(res)
+      }
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // const db = wx.cloud.database()
-    db.collection('garbageList').where({
-      "goods":'可回收垃圾'
-    }).get({
-      success(){
-        // console.log('this', this)
-      }
+    db.collection('consult').get().then(res => {
+      // console.log('consult', res.data)
+      this.setData({
+        consult: res.data
+      })
     })
-    // .then(res => {
-    //   console.log(res)
+
+    // // 
+    // db.collection('garbageList').where({
+    //   "goods":'可回收垃圾'
+    // }).get({
+    //   success(){
+    //     // console.log('this', this)
+    //   }
     // })
+    // // .then(res => {
+    // //   console.log(res)
+    // // })
   },
 
   /**

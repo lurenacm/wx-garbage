@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/my/my",
     "pages/science/science",
-    "pages/store/store"
+    "pages/store/store",
+    "pages/home/contentPage/contentPage"
   ],
   "window": {
     "backgroundTextStyle": "light",

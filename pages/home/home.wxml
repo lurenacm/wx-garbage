@@ -1,9 +1,7 @@
 <view class="container">
     <view class="search-container">
         <icon type="search"></icon>
-        <text class="desc">
-            搜索垃圾查看对应分类
-        </text>
+        <text class="desc">搜索垃圾查看对应分类</text>
     </view>
     <view>
         <v-swiper />
@@ -14,6 +12,17 @@
             <text class="text">资讯</text>
             <text class="more-text">更多 ></text>
         </view>
-        <v-information/>
+        <block>
+            <view wx:for = "{{consult}}" wx:key="_id">
+                <v-information 
+                    title="{{item.title}}" 
+                    browse="{{item.browse}}" 
+                    date="{{item.date}}"
+                    img="{{item.img}}"
+                    data-content="{{[item.content, item.img]}}"
+                    bindtap = "getContent"
+                />
+            </view>
+        </block>
     </view>
 </view>
