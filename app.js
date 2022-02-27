@@ -1,7 +1,7 @@
 //app.js
 App({
   onLaunch: function () {
-    console.log('first')
+    // console.log('first')
     wx.cloud.init({
       env:'test-ov0b5' // 云函数环境id
     })

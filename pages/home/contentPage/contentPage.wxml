@@ -1,12 +1,14 @@
 
 <view class="container">
     <view class="content-container">
-        <!-- <image class="content-img" src="{{imgUrl}}"></image>
-        <text class="content-img">{{content}}</text> -->
+        <image class="content-img" src="{{imgUrl}}"></image>
+        <view class="text-container">
+            <text class="content-text" decode="{{true}}" user-select="{{true}}">{{content}}</text>
+        </view>
+    
 
-        <image class="content-img" src="cloud://test-ov0b5.7465-test-ov0b5-1301185373/browseImgs/mushroom.jpg"></image>
-        <text class="content-text" decode="{{true}}"> &nbsp; &nbsp;  和一般的分类垃圾桶相比，这种厢房内部安装新风换气系统及紫外线杀蚊装置，有效解决了居民担心的垃圾异味问题。“以前每栋楼前只有两个简单的垃圾桶，天气一热，异味很重，现在好了，垃圾全部密闭起来，干净多了！”围观的居民纷纷点赞。\n &nbsp; &nbsp;  记者注意到，厢房设置其他垃圾、厨余垃圾、可回收物、有害垃圾等6个分类投放口。在7:00至9：00、12:30—14:00、18:00至20:00三个时间段可定点投放，投放点运行稳定后将根据居民的投放量适当调整时间。每个生活垃圾分类投放厢房配备1-2名专职管理人员，经过专业培训、考核后上岗，负责垃圾厢房的管理，督促指导居民正确分类投放，做好厢房的维护、保洁，及时通知垃圾车托运，实现“日产日清”。\n &nbsp; &nbsp;  “智能垃圾厢房实际上就是分类定时定点集中投放点。”麓谷街道相关负责人介绍，街道根据各住宅小区的空间布局、人口、垃圾日产生量等因素，因时、因地制宜，已建成了五个生活垃圾分类定时定点集中投放点，本周还有两个投放点将陆续对外开放。实行定时定点集中投放的小区内原有垃圾桶将全部撤除，生活垃圾统一投放至集中投放点。\n &nbsp; &nbsp;  下阶段，街道将进一步推进垃圾分类定时定点集中投放厢房建设工作，增强居民垃圾分类主动性，减少垃圾产生量，增加资源有效回收利用。</text>
-
+        <!-- <image class="content-img" src="cloud://test-ov0b5.7465-test-ov0b5-1301185373/browseImgs/mushroom.jpg"></image> -->
+        <!-- <text class="content-text" decode="{{true}}"> &nbsp; &nbsp;  2月21日傍晚6时，新一代升级版全品类智能垃圾分类回收箱在宁波鄞州首南街道陈婆渡社区都市丽湾小区“亮相”，迅速引来众多居民围观尝试。\n &nbsp; &nbsp;  据悉，这是全区第三台该类型垃圾分类回收箱，是世界银行贷款中国塑料垃圾减量项目在宁波市的试点二期项目。“相较于前两批次，这一版箱体最大的改变是破袋方式的不同，修复了此前箱体的一些问题。” \n &nbsp; &nbsp; 首南街道相关负责人表示，此前箱体配备的自动破袋设备由上往下进行，居民在使用过程中经常反映会“卡壳”。升级版箱体已将这一BUG修复，改为由下往上的破袋方式，让整个过程更加流畅，“操作时，柜门还会自动关闭，不会造成二次污染</text> -->
+        
 </view>
 </view>
-&nbsp; &nbsp;  

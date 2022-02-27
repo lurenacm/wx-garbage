@@ -8,8 +8,7 @@
 
 .content-container {
     background-color: white;
-    width: 80%;
-    /* height: 80%; */
+    width: 85%;
     border-radius: 15rpx;
     margin: 20rpx auto;
     padding: 20rpx;
@@ -18,10 +17,21 @@
 .content-img {
     width: 100%;
     padding: 10rpx auto;
-    margin-bottom: 10rpx;
-    border-radius: 10rpx;
+    margin-bottom: 40rpx;
+    border-radius: 20rpx;
+    box-shadow:2px 4px 3px rgb(176, 212, 238)
+}
+
+.text-container{
+    margin-bottom: 20rpx;
 }
 
 .content-text {
     white-space: pre-wrap;
+    color: #4B4B4B;
+    font-size: medium;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: Arial,"Microsoft YaHei";
+    /* font-family: Arial, Helvetica, sans-serif; */
 }

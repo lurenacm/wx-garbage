@@ -14,10 +14,9 @@ Page({
 
   getContent(event){
     let content = event.currentTarget.dataset.content
-    // console.log('dataset', event.currentTarget.dataset.content)
-
+    // console.log('dataset----------', event.currentTarget.dataset.content)
     wx.navigateTo({
-      url:`./contentPage/contentPage?content=${content[0]}&imgUrl=${content[1]}`,
+      url:`./contentPage/contentPage?content=${encodeURIComponent(JSON.stringify(content.content))}&imgUrl=${content.img}`,
       fail(res){
         console.log(res)
       }
@@ -35,17 +34,6 @@ Page({
       })
     })
 
-    // // 
-    // db.collection('garbageList').where({
-    //   "goods":'可回收垃圾'
-    // }).get({
-    //   success(){
-    //     // console.log('this', this)
-    //   }
-    // })
-    // // .then(res => {
-    // //   console.log(res)
-    // // })
   },
 
   /**

@@ -19,7 +19,7 @@
                     browse="{{item.browse}}" 
                     date="{{item.date}}"
                     img="{{item.img}}"
-                    data-content="{{[item.content, item.img]}}"
+                    data-content="{{item}}"
                     bindtap = "getContent"
                 />
             </view>

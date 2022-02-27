@@ -14,8 +14,20 @@ Page({
    */
   onLoad: function (options) {
     // console.log('options', options)
+    let content = JSON.parse(decodeURIComponent(options.content))
+
+    var N_Filter = function (text) {
+      if (text) {
+        var pattern = "\\\\n";
+        var target = "\n";
+        var reg = RegExp(pattern, "g");
+        return text.replace(reg, target);
+      }
+    }
+    content = N_Filter(content)
+
     this.setData({
-      content: options.content,
+      content: content,
       imgUrl: options.imgUrl
     })
   },
