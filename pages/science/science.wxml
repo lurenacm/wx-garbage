@@ -4,17 +4,43 @@
   </view>
   <van-tabs swipeable class="tabs-text">
     <van-tab title="可回收物">
-      <v-garbage-describe/>
+      <v-garbage-describe 
+        conceptTitle="{{conceptArr.conceptTitle}}" 
+        content="{{conceptArr.content}}" 
+        sort="{{conceptArr.sort}}" 
+        sortEng="{{conceptArr.sortEng}}" 
+        imgUrl="{{conceptArr.imgUrl}}" 
+      />
+
+      <view class="recyclabl-descripe">
+        <view class="line"></view>
+        <text>以下类型仅供参考</text>
+        <view class="line"></view>
+      </view>
+
+      <block >
+        <view class="icon-container">
+          <view wx:for="{{iconArr}}" wx:key="_id">
+            <v-icon-content 
+              iconUrl="{{item.iconUrl}}" 
+              title="{{item.title}}" 
+            />
+          </view>
+        </view>
+      </block>
+      
     </van-tab>
     <van-tab title="厨余垃圾">
-      <v-garbage-describe/>
+      <v-garbage-describe />
+      <v-icon-content />
     </van-tab>
     <van-tab title="有害垃圾">
-      <v-garbage-describe/>
+      <v-garbage-describe />
+      <v-icon-content />
     </van-tab>
     <van-tab title="其他垃圾">
+      <v-garbage-describe />
+      <v-icon-content />
     </van-tab>
   </van-tabs>
 </view>
-
-

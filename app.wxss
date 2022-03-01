@@ -1,9 +1,9 @@
 /**app.wxss**/
 
-page{
-  font-family: PingFangSC-Thin; 
-  font-size:16px;
- /* overflow: hidden; */
+page {
+  font-family: PingFangSC-Thin;
+  font-size: 16px;
+  /* overflow: hidden; */
 }
 
 /* .container {
@@ -14,3 +14,67 @@ page{
   justify-content: space-between;
   box-sizing: border-box;
 }  */
+
+/* .icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
+@font-face {
+  font-family: 'iconfont';
+  project id 3211009
+  src: url('');
+  src: url('?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_3211009_aat0ksif0w7.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_3211009_aat0ksif0w7.woff') format('woff'),
+    url('//at.alicdn.com/t/font_3211009_aat0ksif0w7.ttf') format('truetype'),
+    url('#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jiayongdianqi:before {
+  content: "\e600";
+}
+
+.icon-feijinshu:before {
+  content: "\e67e";
+}
+
+.icon-tubiao-:before {
+  content: "\e611";
+}
+
+.icon-fangzhi:before {
+  content: "\e6e7";
+}
+
+.icon-kehuishouwu-bolilei:before {
+  content: "\e63f";
+}
+
+.icon-kehuishouwu-feizhilei:before {
+  content: "\e640";
+}
+
+.icon-jiaju:before {
+  content: "\e609";
+}
+
+.icon-baozhuangwu:before {
+  content: "\e603";
+}
+
+.icon-feisuliao:before {
+  content: "\e649";
+} */

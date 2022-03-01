@@ -13,12 +13,13 @@
             <text class="more-text">更多 ></text>
         </view>
         <block>
-            <view wx:for = "{{consult}}" wx:key="_id">
+            <view wx:for = "{{consult}}" wx:key="_id" class="information">
                 <v-information 
                     title="{{item.title}}" 
                     browse="{{item.browse}}" 
                     date="{{item.date}}"
                     img="{{item.img}}"
+                    _id="{{item._id}}"
                     data-content="{{item}}"
                     bindtap = "getContent"
                 />

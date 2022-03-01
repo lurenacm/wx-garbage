@@ -1,72 +1,21 @@
 <view class="container">
   <view class="top-item">
     <view class="img-wrapper">
-    <image class="img-item" src="/images/science/garbage@apply.png"></image>
+      <image class="img-item" src="{{imgUrl}}"></image>
     </view>
     <view class="text-wrapper">
-      <text class="text-recyclabl">可回收垃圾</text>
-      <text>RECOVERABLE GARBAGE</text>
+      <text class="text-recyclabl">{{sort}}</text>
+      <text>{{sortEng}}</text>
     </view>
   </view>
   <view class="text-container">
     <view class="recyclabl-descripe">
       <view class="line"></view>
-      <text>可回收垃圾概念</text>
+      <text>{{conceptTitle}}</text>
       <view class="line"></view>
     </view>
     <view class="descripe">
-      <text>可回收物指适宜回收利用和资源化利用的生活废弃物。可回收物主要品种包括：废纸、废塑料、废金属、废包装物、废旧纺织物、废弃电器电子产品、废玻璃、废纸塑铝复合包装等。</text>
-    </view>
-  </view>
-  <view class="text-container">
-    <view class="recyclabl-descripe">
-      <view class="line"></view>
-      <text>以下类型仅供参考</text>
-      <view class="line"></view>
-    </view>
-    <view class="block">
-      <view class="display-garbage">
-        <view class="garbage-item">
-          <image class="garbage-img" src="/images/science/garbage@plastic.png"></image>
-        </view>
-        <text>塑料类</text>
-      </view>
-      <view class="display-garbage">
-        <view class="garbage-item">
-          <image class="garbage-img" src="/images/science/garbage@packing.png"></image>
-        </view>
-        <text>包装物</text>
-      </view>
-      <view class="display-garbage">
-        <view class="garbage-item">
-          <image class="garbage-img" src="/images/science/garbage@textile.png"></image>
-        </view>
-        <text>纺织类</text>
-      </view>
-      <view class="display-garbage">
-        <view class="garbage-item">
-          <image class="garbage-img" src="/images/science/garbage@glass.png"></image>
-        </view>
-        <text>玻璃类</text>
-      </view>
-      <view class="display-garbage">
-        <view class="garbage-item">
-          <image class="garbage-img" src="/images/science/garbage@paper.png"></image>
-        </view>
-        <text>废纸类</text>
-      </view>
-      <view class="display-garbage">
-        <view class="garbage-item">
-          <image class="garbage-img" src="/images/science/garbage@metal.png"></image>
-        </view>
-        <text>废金属</text>
-      </view>
-      <view class="display-garbage">
-        <view class="garbage-item">
-          <image class="garbage-img" src="/images/science/garbage@shore.png"></image>
-        </view>
-        <text>鞋类</text>
-      </view>        
+      <text>{{content}}</text>
     </view>
   </view>
 </view>

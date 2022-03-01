@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "v-garbage-describe": "/components/garbage-describe/index"
+    "v-garbage-describe": "/components/garbage-describe/index",
+    "v-icon-content":"/components/icon-content/index"
   }
 }

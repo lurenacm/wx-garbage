@@ -1,3 +1,4 @@
+
 .container{
   display: flex;
   flex-direction: column;
@@ -43,70 +44,35 @@
 }
 
 .text-container{
-  margin: 20rpx;
-  display: flex;
-  flex-direction: column;
-}
-
-.recyclabl-descripe{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.line{
-  width: 180rpx;
-  background-color: #f3f3f3;
-  height: 2px;
-}
-
-.descripe{
-  margin: 20rpx;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10rpx;
-}
-
-
-
-.display-garbage{
-  margin: 20rpx;
-  width: 150rpx;
-  height: 200rpx;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20rpx;
-  box-shadow: 1px 2px 3px 4px  #f8f8f8;
-  border: 1px solid #fcfcfc;
-  background-color: #fafafa;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.garbage-item{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100rpx;
-  height: 150rpx;
-  border-radius: 20rpx;
-  background-color: #fff;
-}
-
-.garbage-img{
-  width: 80rpx;
-  height: 80rpx;
-  padding: 10rpx 0;
-}
-
-.block{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
+    margin: 20rpx;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recyclabl-descripe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .line{
+    width: 180rpx;
+    background-color: #f3f3f3;
+    height: 2px;
+  }
+  
+  .descripe{
+    margin: 20rpx;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10rpx;
+    white-space: pre-wrap;
+    color: #4B4B4B;
+    font-size: medium;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: Arial,"Microsoft YaHei";
+  }

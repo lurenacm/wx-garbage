@@ -1,69 +1,75 @@
 .container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.search-container{
-    width: 86%;
-    height: 70rpx;
-    background-color:#f7f7f7;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
+.search-container {
+  width: 86%;
+  height: 70rpx;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
 }
 
 .desc {
-    padding-bottom: 43rpx;
-    color:#9e9e9e;
-    font-size: 14px;
+  /* padding-bottom: 43rpx; */
+  padding: auto 10rpx ;
+  color: #9e9e9e;
+  font-size: 14px;
 }
 
 .crude-line {
-    margin: 40rpx auto;
-    width: 95%;
-    height: 25rpx;
-    background: #f2f2f2;
-    border-radius: 10rpx;
+  margin: 40rpx auto;
+  width: 95%;
+  height: 25rpx;
+  background: #f2f2f2;
+  border-radius: 10rpx;
 }
 
-.info-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .info-item {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    align-items: center;
-    margin: 20rpx 40rpx;
-  }
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .line {
-    width: 10rpx;
-    height: 45rpx;
-    background: #363636;
-  }
-  
-  .text {
-    color: #363636;
-    font-size: 17px;
-    font-weight: bold;
-    margin-left: 10rpx;
-  }
-  
-  .more-text {
-    font-size: 14px;
-    color: #cdcdcd;
-    position: absolute;
-    right: 0px;
-    margin-right: 40rpx;
-  }
-  
-  
+.info-item {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  margin: 20rpx 40rpx;
+}
+
+.line {
+  width: 10rpx;
+  height: 45rpx;
+  background: #363636;
+}
+
+.text {
+  color: #363636;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+
+.more-text {
+  font-size: 14px;
+  color: #cdcdcd;
+  position: absolute;
+  right: 0px;
+  margin-right: 40rpx;
+}
+
+.information {
+  border:1rpx solid #FFF4F2;
+  margin: 25rpx;
+  border-radius: 20rpx;
+  box-shadow: 2px 4px 3px rgb(176, 212, 238);
+}

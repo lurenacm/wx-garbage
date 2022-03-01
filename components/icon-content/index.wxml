@@ -1,0 +1,8 @@
+<view class="block">
+    <view class="display-garbage">
+        <view class="garbage-item">
+            <image class="garbage-img" src="{{iconUrl}}"></image>
+        </view>
+        <text class="descripe">{{title}}</text>
+    </view>
+</view>

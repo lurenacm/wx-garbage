@@ -9,7 +9,8 @@ Component({
     browse: Number,
     date: String,
     img: String,
-    content: String
+    content: String,
+    _id: String
   },
 
   /**
@@ -19,16 +20,27 @@ Component({
 
   },
 
-  lifetimes:{
-    attached(){
-     
-    }
+  pageLifetimes: {
+    hide() {
+      let than = this
+      wx.getStorage({
+        key: '_id',
+        success(res) {
+          if (than.properties._id === res.data) {
+            than.setData({
+              browse: than.properties.browse + 1
+            })
+          }
+        }
+      })
+    },
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
+
 
   }
 

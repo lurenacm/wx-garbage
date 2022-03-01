@@ -4,13 +4,42 @@
   background-color: #f7f8fa;
 }
 
-.top{
+.top {
   color: #222222;
   font-size: 20px;
   font-weight: bold;
   margin: 20rpx;
 }
 
-.tabs-text{
+.tabs-text {
   font-weight: 800;
+}
+
+
+.recyclabl-descripe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.line {
+  width: 180rpx;
+  background-color: #f3f3f3;
+  height: 2px;
+}
+
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 40rpx;
+  border-radius: 20rpx;
+  padding: 10rpx;
+  width: 85%;
+  
 }

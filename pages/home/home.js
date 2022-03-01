@@ -2,23 +2,42 @@
 const appInstance = getApp()
 const db = wx.cloud.database()
 // const db = appInstance.globalData.db
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    consult:[]
+    consult: [],
+    browse: null,
+    _id: null
   },
 
-
-  getContent(event){
+  getContent(event) {
     let content = event.currentTarget.dataset.content
-    // console.log('dataset----------', event.currentTarget.dataset.content)
+    let showContent = encodeURIComponent(JSON.stringify(content.content))
+    let img = content.img
+
+    this.setData({
+      browse: content.browse,
+      _id: content._id
+    })
+
+    wx.setStorage({
+      key: "_id",
+      data: content._id
+    })
+
     wx.navigateTo({
-      url:`./contentPage/contentPage?content=${encodeURIComponent(JSON.stringify(content.content))}&imgUrl=${content.img}`,
-      fail(res){
-        console.log(res)
+      url: `./contentPage/contentPage?content=${showContent}&imgUrl=${img}`,
+    })
+
+    wx.cloud.callFunction({
+      name: 'getConsultBrowse',
+      data: {
+        _id: this.data._id,
+        browse: this.data.browse
       }
     })
   },
@@ -27,13 +46,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    db.collection('consult').get().then(res => {
-      // console.log('consult', res.data)
-      this.setData({
-        consult: res.data
-      })
-    })
-
+    // db.collection('consult').get().then(res => {
+    //   this.setData({
+    //     consult: res.data
+    //   })
+    // })
   },
 
   /**
@@ -53,9 +70,7 @@ Page({
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
-
-  },
+  onHide: function () {},
 
   /**
    * 生命周期函数--监听页面卸载

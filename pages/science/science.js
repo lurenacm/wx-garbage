@@ -1,18 +1,31 @@
 // pages/science/science.js
+const db = wx.cloud.database()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    activeKey: 0,
+    conceptArr:null,
+    iconArr: null
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    db.collection('recyclableConcept').get().then( res => {
+      this.setData({
+        conceptArr: res.data[0]
+      })
+    })
 
+    db.collection('recyclableIcon').get().then( res => {
+      console.log(res.data)
+      this.setData({
+        iconArr: res.data
+      })
+    })
   },
 
   /**
