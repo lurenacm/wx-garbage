@@ -29,7 +29,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.13.1",
 	"appid": "wx1f57ea2a33a96ecc",
-	"projectname": "Garbage-WX",
+	"projectname": "Garbage",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
