@@ -1,0 +1,85 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": false,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"appid": "wx1f57ea2a33a96ecc",
+	"projectname": "Garbage",
+	"libVersion": "2.14.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "pages/home/contentPage/contentPage",
+					"pathName": "pages/home/contentPage/contentPage",
+					"query": "content=\"居民日常生活中产生的有机类生活垃圾固体食物、蛋壳、瓜果皮核、茶渣等厨余垃圾和农贸市场、农产品批发市场废弃的果蔬垃圾等。厨余垃圾必须沥干水分后投放至厨余垃圾收集容器，以便于后期垃圾焚烧发电。有塑料袋外包装的，应尽量将外部包装袋去掉。公共场所不设立厨余垃圾投放装置的，建议将厨余垃圾带回到小区等设有厨余垃圾箱的地方投放。\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/databaseGuide/databaseGuide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": "content=\"居民日常生活中产生的有机类生活垃圾固体食物、蛋壳、瓜果皮核、茶渣等厨余垃圾和农贸市场、农产品批发市场废弃的果蔬垃圾等。厨余垃圾必须沥干水分后投放至厨余垃圾收集容器，以便于后期垃圾焚烧发电。有塑料袋外包装的，应尽量将外部包装袋去掉。公共场所不设立厨余垃圾投放装置的，建议将厨余垃圾带回到小区等设有厨余垃圾箱的地方投放。\"",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/science/science",
+					"pathName": "pages/science/science",
+					"scene": null
+				}
+			]
+		}
+	}
+}
