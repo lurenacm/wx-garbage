@@ -21,7 +21,7 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"useCompilerModule": false,
+		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"appid": "wx1f57ea2a33a96ecc",
@@ -77,6 +77,13 @@
 					"id": -1,
 					"name": "pages/science/science",
 					"pathName": "pages/science/science",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/store/store",
+					"pathName": "pages/store/store",
 					"scene": null
 				}
 			]
