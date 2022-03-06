@@ -21,7 +21,7 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"useCompilerModule": true,
+		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"appid": "wx1f57ea2a33a96ecc",
@@ -84,6 +84,14 @@
 					"id": -1,
 					"name": "pages/store/store",
 					"pathName": "pages/store/store",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/store/storeDetails/storeDetails",
+					"pathName": "pages/store/storeDetails/storeDetails",
+					"query": "",
 					"scene": null
 				}
 			]
