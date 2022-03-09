@@ -93,6 +93,33 @@
 					"pathName": "pages/store/storeDetails/storeDetails",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/store/storeAddress/storeAddress",
+					"pathName": "pages/store/storeAddress/storeAddress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/store/addAddress/addAddress",
+					"pathName": "pages/store/addAddress/addAddress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/store/storeAddress/storeAddress",
+					"pathName": "pages/store/storeAddress/storeAddress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/store/cashRecord/cashRecord",
+					"pathName": "pages/store/cashRecord/cashRecord",
+					"scene": null
 				}
 			]
 		}
