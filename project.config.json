@@ -51,27 +51,13 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": -1,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
 					"pathName": "pages/databaseGuide/databaseGuide",
 					"query": ""
-				},
-				{
-					"id": 1,
-					"name": "pages/home/contentPage/contentPage",
-					"pathName": "pages/home/contentPage/contentPage",
-					"query": "content=\"居民日常生活中产生的有机类生活垃圾固体食物、蛋壳、瓜果皮核、茶渣等厨余垃圾和农贸市场、农产品批发市场废弃的果蔬垃圾等。厨余垃圾必须沥干水分后投放至厨余垃圾收集容器，以便于后期垃圾焚烧发电。有塑料袋外包装的，应尽量将外部包装袋去掉。公共场所不设立厨余垃圾投放装置的，建议将厨余垃圾带回到小区等设有厨余垃圾箱的地方投放。\"",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/databaseGuide/databaseGuide",
-					"pathName": "pages/databaseGuide/databaseGuide",
-					"query": "content=\"居民日常生活中产生的有机类生活垃圾固体食物、蛋壳、瓜果皮核、茶渣等厨余垃圾和农贸市场、农产品批发市场废弃的果蔬垃圾等。厨余垃圾必须沥干水分后投放至厨余垃圾收集容器，以便于后期垃圾焚烧发电。有塑料袋外包装的，应尽量将外部包装袋去掉。公共场所不设立厨余垃圾投放装置的，建议将厨余垃圾带回到小区等设有厨余垃圾箱的地方投放。\"",
-					"scene": null
 				},
 				{
 					"id": -1,
@@ -89,36 +75,9 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/store/storeDetails/storeDetails",
-					"pathName": "pages/store/storeDetails/storeDetails",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/store/storeAddress/storeAddress",
-					"pathName": "pages/store/storeAddress/storeAddress",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/store/addAddress/addAddress",
-					"pathName": "pages/store/addAddress/addAddress",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/store/storeAddress/storeAddress",
-					"pathName": "pages/store/storeAddress/storeAddress",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/store/cashRecord/cashRecord",
-					"pathName": "pages/store/cashRecord/cashRecord",
+					"name": "pages/search/search",
+					"pathName": "pages/search/search",
+					"query": "_id=17e3426e62231ac311f9589c6adba228",
 					"scene": null
 				}
 			]
