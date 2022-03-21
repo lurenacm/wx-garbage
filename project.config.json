@@ -26,7 +26,7 @@
 	},
 	"appid": "wx1f57ea2a33a96ecc",
 	"projectname": "Garbage",
-	"libVersion": "2.14.1",
+	"libVersion": "2.10.4",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
@@ -74,9 +74,16 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 3,
 					"name": "pages/search/search",
 					"pathName": "pages/search/search",
+					"query": "_id=17e3426e62231ac311f9589c6adba228",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/speechRecognition/speechRecognition",
+					"pathName": "pages/home/speechRecognition/speechRecognition",
 					"query": "_id=17e3426e62231ac311f9589c6adba228",
 					"scene": null
 				}
